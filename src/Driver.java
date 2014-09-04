@@ -85,7 +85,18 @@ public class Driver {
 					}
 				}
 				else if(choice==3){
-					choice = 400;
+					choice=400;
+					System.out.println("---Sorted By Ingredients---");
+					ArrayList<String> ingredientList = Search.findIngredients(recipeList); // get list of all used categories
+
+					for(String tempIngredient : ingredientList) {
+						ArrayList<Recipe> foundList = Search.searchByIngredient(tempIngredient, recipeList);
+						// perform category search on each category
+						System.out.println(tempIngredient + ": ");
+						for (Recipe recipe : foundList){
+							 System.out.println("\t"+recipe.getName());
+						}
+					}
 					//print out list of recipes sorted by ingredient
 				}
 				else if(choice==4){
