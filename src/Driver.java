@@ -28,25 +28,7 @@ public class Driver {
 
 		
 		 ArrayList<Recipe>recipeList = new ArrayList<Recipe>();
-		 recipeList.add(new Recipe("Pepperoni Pizza",
-				 new String[] {"cheese","pepperoni","crust"}, 
-				 new String[] {"Italian","Dinner"}, 
-				 new String[] {"put stuff on crust","cook it"}));
-		 recipeList.add(new Recipe("Bacon Burger",
-				 new String[] {"cheese","bacon","burger","buns"}, 
-				 new String[] {"'Murican","Dinner"}, 
-				 new String[] {"cook meats","slap it together"}));
-		
-		 recipeList.add(new Recipe("Cheese Burger",
-				 new String[] {"cheese","bacon","burger","buns"}, 
-				 new String[] {"'Murican","Dinner"}, 
-				 new String[] {"cook meats","slap it together"}));
-		 
-		 
-		 recipeList.add( new Recipe("Enchanted Golden Apple",
-				 new String[] {"Block of Gold","Apple"}, 
-				 new String[] {"Minecraft","Enchanted"}, 
-				 new String[] {"use workbench","arrange ingredients"}));
+
 		 
 		 recipeList = RecRead.readInRecipes();
 		 
