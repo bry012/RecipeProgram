@@ -78,11 +78,11 @@ public class Driver {
 				if(choice==1){
 					choice = 400;
 					//print out list of recipes alphabetically
-					ArrayList<String> alphabeticalList = Search.sortAlphabetical(recipeList);
+					ArrayList<Recipe> alphabeticalList = Search.sortAlphabetical(recipeList);
 
-					for(String name : alphabeticalList)
+					for(Recipe recipe : alphabeticalList)
 					{
-					        System.out.println(name);
+					        System.out.println(recipe);
 					}
 
 				}
@@ -116,7 +116,7 @@ public class Driver {
 						 
 						 System.out.println("Recipes that match your search term:");
 						 for (Recipe recipe : searchedList){
-							 System.out.println(recipe.getName());
+							 System.out.println(recipe);
 						 }
 						
 					}
@@ -129,7 +129,7 @@ public class Driver {
 						 
 						 System.out.println("Recipes that match your search term:");
 						 for (Recipe recipe : searchedList){
-							 System.out.println(recipe.getName());
+							 System.out.println(recipe);
 						 }
 						
 					}
@@ -142,7 +142,7 @@ public class Driver {
 						 
 						 System.out.println("Recipes that match your search term:");
 						 for (Recipe recipe : searchedList){
-							 System.out.println(recipe.getName());
+							 System.out.println(recipe);
 						 }
 						
 					}

@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 /**
  * 
@@ -80,15 +81,20 @@ public class Search {
 		
 	}
         
-        public static ArrayList<String> sortAlphabetical(ArrayList<Recipe> recipeArray){
-            ArrayList<String> alphabeticalList = new ArrayList<String>();
+        public static ArrayList<Recipe> sortAlphabetical(ArrayList<Recipe> recipeArray){
+            ArrayList<Recipe> alphabeticalList = new ArrayList<Recipe>();
             
             for(Recipe recipe : recipeArray)
             {
-                alphabeticalList.add(recipe.getName());
+                alphabeticalList.add(recipe);
             }
             
-            Collections.sort(alphabeticalList);
+            Collections.sort(alphabeticalList,new Comparator<Recipe>() {
+                @Override
+                public int compare(Recipe o1, Recipe o2) {
+                    return o1.getName().toLowerCase().compareTo(o2.getName().toLowerCase());
+                }
+            });
             
             return alphabeticalList;
         }

@@ -28,21 +28,23 @@ public class Recipe {
 		return this.ingredients;
 		
 	}
-	public void print() {
-		System.out.println("--- " + name + " ---");
+	public String toString() {
+		String output = "\n--- " + name + " ---";
 		
-		System.out.println("\tIngredients:");
+		output += "\n\tIngredients:";
 		for (int i = 0; i < ingredients.length; i++) {
-			System.out.println("\t\t" + ingredients[i]);		//
+			output += "\n\t\t" + ingredients[i];		//
 		}
-		System.out.println("\tCategories:");
+		output += "\n\tCategories:";
 		for (int c = 0; c < categories.length; c++) {
-			System.out.println("\t\t" + categories[c]);			// Each of these goes through the array of strings and prints each
+			output += "\n\t\t" + categories[c];			// Each of these goes through the array of strings and prints each
 		}
-		System.out.println("\tDirections:");
+		output += "\n\tDirections:";
 		for (int d = 0; d < directions.length; d++) {
-			System.out.println("\t\t" + directions[d]);			//
+			output += "\n\t\t" + directions[d];			//
 		}
+		
+		return output;
 	}
 	
 
