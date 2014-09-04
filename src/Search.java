@@ -81,7 +81,7 @@ public class Search {
 		
 	}
         
-        public static ArrayList<Recipe> sortAlphabetical(ArrayList<Recipe> recipeArray){
+        public static ArrayList<Recipe> sortRecipeAlphabetical(ArrayList<Recipe> recipeArray){
             ArrayList<Recipe> alphabeticalList = new ArrayList<Recipe>();
             
             for(Recipe recipe : recipeArray)

@@ -60,7 +60,7 @@ public class Driver {
 				if(choice==1){
 					choice = 400;
 					//print out list of recipes alphabetically
-					ArrayList<Recipe> alphabeticalList = Search.sortAlphabetical(recipeList);
+					ArrayList<Recipe> alphabeticalList = Search.sortRecipeAlphabetical(recipeList);
 
 					for(Recipe recipe : alphabeticalList)
 					{
