@@ -42,7 +42,9 @@ public class Driver {
 		while(choice!=0){
 						
 			while(choice!=1 && choice!= 2  && choice!= 3  && choice!= 4 && choice!=0){	
-				System.out.println("\nPlease enter the number of the option you would like to perform."
+				System.out.println("\nPlease enter the number of the option you would like to perform.\n"
+						+ "If you wish to see the whole recipe use the search function.\n"
+						+"_____________________________________________________________"
 							+ "\n1:See recipes listed alphabetically\n"
 							+ "2:See recipes sorted by category\n"
 							+ "3:See recipes sorted by ingredient\n"
@@ -64,7 +66,7 @@ public class Driver {
 
 					for(Recipe recipe : alphabeticalList)
 					{
-					        System.out.println(recipe);
+					        System.out.println(recipe.getName());
 					}
 
 				}

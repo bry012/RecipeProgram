@@ -1,5 +1,5 @@
 Name:Apple Cornbread
-Ingredients:2 apples|||peeled and chopped thinly|||1 1/2 Cup unbleached white flour|||1 1/2 cup blue corn meal or regular yellow corn meal|||3 1/2 tsp baking soda|||1/2 tsp salt|||1 tbsp Sucanat or Brown Sugar||| 2 1/4 cup vanilla soymilk|||1 tsp cinnamon|||1/4 cup apple sauce|||2 tbsp maple syrup
+Ingredients:2 apples peeled and chopped thinly|||1 1/2 Cup unbleached white flour|||1 1/2 cup blue corn meal or regular yellow corn meal|||3 1/2 tsp baking soda|||1/2 tsp salt|||1 tbsp Sucanat or Brown Sugar||| 2 1/4 cup vanilla soymilk|||1 tsp cinnamon|||1/4 cup apple sauce|||2 tbsp maple syrup
 Preparation:1. Preheat oven to 400�F.|||2. In a large bowl, combine all ingredients except the apple.|||3. Mix in the apple. Do not overmix as the bread could become tough.|||4. Bake 35-45 minutes on the top shelf of the oven.|||5. Bread is done when an inserted knife comes out clean, about 40 minutes.
 Category:Breakfast
 EndOfRecipe
@@ -36,22 +36,22 @@ EndOfRecipe
 Name:Mushroom Loaf
 Ingredients:1 can of Campbell's Cream of Mushroom Soup|||300 g puff pastry/fila dough|||200 g mushrooms|||3 eggs|||150 g grated Manchego cheese|||3 Tbsp. butter or margarine|||1 Tbsp. Flour|||1/2 cup milk|||2 Tbsp. sesame seeds|||1 Tbsp. Thyme|||Salt & pepper to taste
 Preparation:1)  Clean the mushrooms, cut into quarters.  Sprinkle them with thyme, sautee them in a bit of oil and wait a few minutes.|||2)  Melt the butter in a pan, add the flour and mix well.  When it starts to brown, add the milk little by little and continue mixing.  Season with salt and pepper.|||3)  Mix the flour sauce with the soup.  Beat the eggs and add them.  Then add 3/4 of the cheese and mix well.|||4)  Roll the dough with a rolling pin.  Grease and flour a casserole dish and line it with the dough.  Then fill with the mushoom mixture and sprinkle the remaining cheese.  Baste the edges of the dough with a beaten egg and sprinkle the sesame seeds on top.|||5)  Bake the dish at 200 degrees C until the dough is cooked and becomes golden brown.
-Category: Lunch, Dinner
+Category:Dinner
 EndOfRecipe
 Name:Corn Loaf
 Ingredients:1 can of Campbell's Cream of Corn soup|||2+1/2 cups flour|||3 Tbsp. Baking Powder|||1/2 tsp bicarbonate of soda|||1 tsp powdered cinnamon|||1/2 tsp crushed nuts|||2 cups "pasitas"|||50 g butter|||1 can condensed milk|||1/2 cup sugar|||3 eggs|||2 cups frozen corn or from a can
 Preparation:1)  Mix the flour with the baking powder and bicarbonate.|||2)  Melt the soup with the butter, condensed milk, cinnamon, eggs, nuts and corn.|||3)  Mix the corn mixture with the flour, the "Pasitas", and the sugar.|||4)  Place the mix in a greased and floured mold.|||5)  Bake in the oven at 200 degrees for 30-40 minutes and sprinkle a few more nuts on top before serving.
-Category: Lunch, Dinner
+Category:Dinner
 EndOfRecipe
 Name:Babinka's Potato Salad
 Ingredients:4 Large potatoes (to be diced after boiling)|||4 hard-boiled eggs, diced|||3 heaping Tablespoons mayonnaise|||1 heaping Tablespoon mustard|||About 1/2 or more of a large pickle, diced|||About 1/2 cup or more, cooked peas|||Lawrey's (or other) Season Salt, to taste
 Preparation:Peel the potatoes, boil them for forty minutes or slightly more.  They should be barely firm enough to dice them (without mashing them).  Allow the potatoes to cool before trying to dice them.  When dicing, the chunks can be fairly coarse. Dice the eggs and pickles.  These chunks should be smaller than the potato chunks, perhaps the size of large peas. Mix all ingredients in a large bowl.  Adjust the mayo, mustard, and salt, to taste.
-Category:Dinner, Lunch
+Category:Lunch
 EndOfRecipe
 Name:Babinka's Dumplings
 Ingredients:2 cups Wondra flour (note -- no other flour will make dumplings quite the same way)|||3/4 cup milk (warm)|||1/2 to 3/4 tsp. sugar|||pinch of salt, dash of cooking oil|||1/2 to 3/4 tsp. Double Acting Yeast|||(optional) Croutons (about 1 cup) -- or about 1 slice of well-toasted bread, cubed, for 2 dumplings
 Preparation:Mix the yeast, sugar, pinch of salt and dash of oil, into the milk, until the yeast is well dissolved.  Allow the yeast mixture to get bubbly -- about 10 minutes or so. In a large bowl, mix the 2 cups Wondra flour into the liquid.  If necessary, add a little more milk.  Dough should be just a little bit moist and sticky, but firm enough that it can be peeled from the sides of the mixing bowl easily.  Don't let them get too greasy -- don't use too much oil, don't put oil on your hands to knead them. Knead the dough about 3-5 minutes by hand, or maybe less if using a machine.  Fold in the croutons while doing so. Turn the dough over in a greased bowl, then separate the dough into two (or more) loaf-shapes, so that you don't have to beat down the dough before boiling.  Cover the two loaves with a towel (or towels), and allow to rise in a warm place until it is at least double (about 40 minutes to 1 hour). Transfer the loaves carefully and boil the two loaves in a large pot of boiling water -- large enough that you can flip over the dumplings from time to time.  In Santa Fe, at almost 7000 feet, they should boil for 40 minutes or more.  At lower elevations, they might need to boil longer. Slice with a wire dumpling-cutter if you're lucky enough to have one.  Otherwise try a bread knife, which usually mangles the dumplings, because they are sticky and soft.
-Category:Lunch, Dinner
+Category:Dinner
 EndOfRecipe
 Name:Dill Sauce
 Ingredients:1.5 cups of Sour Cream and/or plain unsweetened yoghurt|||1 cup wine, divided (about 3/4 and 1/4)|||2 small green onions|||1/2 cup mushrooms, chopped fine|||1 packet or teaspoon of chicken boullion|||Dash of black pepper|||Quantity of milk to dilute sauce (about 2-3 cups)|||Flour or cornstarch to thicken sauce (about 1 heaping Tablespoon)|||1 heaping Tablespoon (Tbsp.) Dill weed (dried)|||2 tbsp Lemon Juice
@@ -67,10 +67,10 @@ Ingredients:Cheese or cheese sauce (vegan)|||3+1/2 lbs frozen spinach|||4+1/2 lb
 Preparation:1. Defrost the spinach. Cook and mash the potatoes.|||2. Fry the onion and garlic in the oil until slightly browned.|||3. Put the spinach. herbs and seasoning in with the onions and heat through.|||4. Mix thoroughly with the mashed potatoes and yeast flakes.|||5. Grease a roasting can and spoon the mixture into it.|||6. Smooth the top over with vegan cheese or cheese sauce (see across).|||7. Bake in a preheated 350�F oven until browned on top (about 30 minutes).
 Category:Dinner
 EndOfRecipe
-Name:Sample Vegan Cheesey Sauce
+Name: Sample Vegan Cheesey Sauce
 Ingredients:3 Tbsp. margarine|||2-3 Tbsp. flour|||1 Tbsp. mustard|||4 cups Soy milk|||1 cup Yeast Flakes
 Preparation:Melt the margarine and stir in the flour and mustard;  make sure it's not lumpy. Gradually stir in the milk, stirring constantly so it doesn't go lumpy.  Turn the heat up and stir until it thickens.Once it thickens, turn the heat off and add in the yeast flakes.
-Category: Dinner
+Category:Dinner
 EndOfRecipe
 Name:Swiss Chard And Carmelized Onion Lasagne
 Ingredients:12 oz. dried or 1 lb. fresh, lasagne noodles|||4 Tbs. olive oil|||1 medium garlic clove, minced|||2 bunches red Swiss chard (3 lbs.), stemmed, leaves coarsely chopped and blanched|||1 cup part-skim ricotta cheese|||3 large onions, thinly sliced (4 cups)|||1 tsp. sugar|||1 tsp. balsamic vinegar|||3 cups .low-fat milk|||1/3 cup all-purpose flour|||1+1/4 cups plus 2 Tbs. grated Parmesan or Asiago cheese (5+1/2 oz.)
