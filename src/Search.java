@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.TreeSet;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -80,7 +81,7 @@ public class Search {
 	public static Set<String> findIngredients(
 			ArrayList<Recipe> recipeArray) {
 
-		Set<String> ingredientsSet = new HashSet<String>();
+		Set<String> ingredientsSet = new TreeSet<String>();
         for (Recipe r : recipeArray) {
             for (String i : r.getIngredients()) {
                 ingredientsSet.add(i.toLowerCase());
