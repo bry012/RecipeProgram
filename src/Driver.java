@@ -1,6 +1,7 @@
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Set;
 
 
 /*
@@ -73,7 +74,7 @@ public class Driver {
 				else if(choice==2){
 					choice=400;
 					System.out.println("---Sorted By Category---");
-					ArrayList<String> categoryList = Search.findCategories(recipeList); // get list of all used categories
+					Set<String> categoryList = Search.findCategories(recipeList); // get list of all used categories
 
 					for(String tempCategory : categoryList) {
 						ArrayList<Recipe> foundList = Search.searchByCategory(tempCategory, recipeList);
@@ -87,14 +88,14 @@ public class Driver {
 				else if(choice==3){
 					choice=400;
 					System.out.println("---Sorted By Ingredients---");
-					ArrayList<String> ingredientList = Search.findIngredients(recipeList); // get list of all used categories
+					Set<String> ingredientList = Search.findIngredients(recipeList); // get list of all used ingredients
 
 					for(String tempIngredient : ingredientList) {
 						ArrayList<Recipe> foundList = Search.searchByIngredient(tempIngredient, recipeList);
-						// perform category search on each category
-						System.out.println(tempIngredient + ": ");
+						// perform ingredient search on each ingredient
+						System.out.println("\n" + tempIngredient + ": ");
 						for (Recipe recipe : foundList){
-							 System.out.println("\t"+recipe.getName());
+							 System.out.println("\t-"+recipe.getName());
 						}
 					}
 					//print out list of recipes sorted by ingredient
