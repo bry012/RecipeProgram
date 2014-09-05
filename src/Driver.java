@@ -24,7 +24,7 @@ public class Driver {
 		Scanner UIscan = new Scanner(System.in);
 		String check = "";
 		ArrayList<Recipe> searchedList;
-		String filename = "./RecipeList.txt";
+		String filename = "./src/RecipeList.txt";
 		RecipeFileReader RecRead = new RecipeFileReader(filename);
 
 		
