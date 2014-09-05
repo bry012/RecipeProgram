@@ -64,7 +64,7 @@ public class Driver {
 					choice = 400;
 					//print out list of recipes alphabetically
 					ArrayList<Recipe> alphabeticalList = Search.sortRecipeAlphabetical(recipeList);
-
+					System.out.println("--Sorted Alphabetically--\n");
 					for(Recipe recipe : alphabeticalList)
 					{
 					        System.out.println(recipe.getName());
