@@ -4,12 +4,14 @@ public class Recipe {
 	
 	String name;
 	String[] ingredients;
+    String[] ingredientAmounts;
 	String[] categories;
 	String[] directions;
 	
-	Recipe(String _name, String[] _ingredients, String[] _categories, String[] _directions) {
+	Recipe(String _name, String[] _ingredients, String[] _ingredientAmounts, String[] _categories, String[] _directions) {
 		this.name = _name;
 		this.ingredients = _ingredients;
+        this.ingredientAmounts = _ingredientAmounts;
 		this.categories = _categories;
 		this.directions = _directions;
 		
@@ -28,12 +30,21 @@ public class Recipe {
 		return this.ingredients;
 		
 	}
+    
+    public String[] getIngredientsAndAmounts(){
+        java.util.ArrayList<String> ingredientsAndAmounts = new java.util.ArrayList<String>();
+        for (int i = 0; i < this.ingredients.length; i++) {
+            ingredientsAndAmounts.add(this.ingredientAmounts[i] + " " + this.ingredients[i]);
+        }
+        return ingredientsAndAmounts.toArray(new String[ingredientsAndAmounts.size()]);
+    }
 	public String toString() {
 		String output = "\n--- " + name + " ---";
 		
 		output += "\n\tIngredients:";
-		for (int i = 0; i < ingredients.length; i++) {
-			output += "\n\t\t" + ingredients[i];		//
+        String[] myIngredients = this.getIngredientsAndAmounts();
+		for (int i = 0; i < myIngredients.length; i++) {
+			output += "\n\t\t" + myIngredients[i];		//
 		}
 		output += "\n\tCategories:";
 		for (int c = 0; c < categories.length; c++) {
