@@ -28,25 +28,7 @@ public class Driver {
 
 		
 		 ArrayList<Recipe>recipeList = new ArrayList<Recipe>();
-		 recipeList.add(new Recipe("Pepperoni Pizza",
-				 new String[] {"cheese","pepperoni","crust"}, 
-				 new String[] {"Italian","Dinner"}, 
-				 new String[] {"put stuff on crust","cook it"}));
-		 recipeList.add(new Recipe("Bacon Burger",
-				 new String[] {"cheese","bacon","burger","buns"}, 
-				 new String[] {"'Murican","Dinner"}, 
-				 new String[] {"cook meats","slap it together"}));
-		
-		 recipeList.add(new Recipe("Cheese Burger",
-				 new String[] {"cheese","bacon","burger","buns"}, 
-				 new String[] {"'Murican","Dinner"}, 
-				 new String[] {"cook meats","slap it together"}));
-		 
-		 
-		 recipeList.add( new Recipe("Enchanted Golden Apple",
-				 new String[] {"Block of Gold","Apple"}, 
-				 new String[] {"Minecraft","Enchanted"}, 
-				 new String[] {"use workbench","arrange ingredients"}));
+
 		 
 		 recipeList = RecRead.readInRecipes();
 		 
@@ -60,7 +42,9 @@ public class Driver {
 		while(choice!=0){
 						
 			while(choice!=1 && choice!= 2  && choice!= 3  && choice!= 4 && choice!=0){	
-				System.out.println("\nPlease enter the number of the option you would like to perform."
+				System.out.println("\nPlease enter the number of the option you would like to perform.\n"
+						+ "If you wish to see the whole recipe use the search function.\n"
+						+"_____________________________________________________________"
 							+ "\n1:See recipes listed alphabetically\n"
 							+ "2:See recipes sorted by category\n"
 							+ "3:See recipes sorted by ingredient\n"
@@ -78,20 +62,41 @@ public class Driver {
 				if(choice==1){
 					choice = 400;
 					//print out list of recipes alphabetically
-					ArrayList<String> alphabeticalList = Search.sortAlphabetical(recipeList);
+					ArrayList<Recipe> alphabeticalList = Search.sortRecipeAlphabetical(recipeList);
 
-					for(String name : alphabeticalList)
+					for(Recipe recipe : alphabeticalList)
 					{
-					        System.out.println(name);
+					        System.out.println(recipe.getName());
 					}
 
 				}
 				else if(choice==2){
-					choice = 400;
-					//print out list of recipes sorted by category
+					choice=400;
+					System.out.println("---Sorted By Category---");
+					ArrayList<String> categoryList = Search.findCategories(recipeList); // get list of all used categories
+
+					for(String tempCategory : categoryList) {
+						ArrayList<Recipe> foundList = Search.searchByCategory(tempCategory, recipeList);
+						// perform category search on each category
+						System.out.println(tempCategory + ": ");
+						for (Recipe recipe : foundList){
+							 System.out.println("\t"+recipe.getName());
+						}
+					}
 				}
 				else if(choice==3){
-					choice = 400;
+					choice=400;
+					System.out.println("---Sorted By Ingredients---");
+					ArrayList<String> ingredientList = Search.findIngredients(recipeList); // get list of all used categories
+
+					for(String tempIngredient : ingredientList) {
+						ArrayList<Recipe> foundList = Search.searchByIngredient(tempIngredient, recipeList);
+						// perform category search on each category
+						System.out.println(tempIngredient + ": ");
+						for (Recipe recipe : foundList){
+							 System.out.println("\t"+recipe.getName());
+						}
+					}
 					//print out list of recipes sorted by ingredient
 				}
 				else if(choice==4){
@@ -116,7 +121,7 @@ public class Driver {
 						 
 						 System.out.println("Recipes that match your search term:");
 						 for (Recipe recipe : searchedList){
-							 System.out.println(recipe.getName());
+							 System.out.println(recipe);
 						 }
 						
 					}
@@ -129,7 +134,7 @@ public class Driver {
 						 
 						 System.out.println("Recipes that match your search term:");
 						 for (Recipe recipe : searchedList){
-							 System.out.println(recipe.getName());
+							 System.out.println(recipe);
 						 }
 						
 					}
@@ -142,7 +147,7 @@ public class Driver {
 						 
 						 System.out.println("Recipes that match your search term:");
 						 for (Recipe recipe : searchedList){
-							 System.out.println(recipe.getName());
+							 System.out.println(recipe);
 						 }
 						
 					}
